@@ -16,7 +16,7 @@ ufw disable
 
 #running xray install script for linux - systemd
 
-bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install
+# bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install -u root
 
 #adding new configuration files 
 
@@ -162,7 +162,7 @@ systemctl restart xray
 
 #install bbr
 
-mkdir ~/across
-git clone https://github.com/teddysun/across ~/across
-chmod 777 ~/across
-bash ~/across/bbr.sh
+#mkdir ~/across
+#git clone https://github.com/teddysun/across ~/across
+#chmod 777 ~/across
+#bash ~/across/bbr.sh
